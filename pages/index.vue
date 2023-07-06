@@ -1,10 +1,11 @@
 <template>
-  <div class="container">
+  <div class="main">
 <div class="affix-container visible md:invisible sm:invisible">
-  <el-affix  :offset="600" class="w-auto">
+  <!-- <el-affix  :offset="600" class="w-auto
+  ">
     <el-button type="default" class="rounded-e-full btn btn-rounded bg-white py-4 px-3.5  "><span class="capitalize text-gray-950 m-2">home</span><span class="capitalize text-gray-950 m-2">about</span><span class="capitalize text-gray-950 m-2">portfolio</span><span class="capitalize text-gray-950 m-2">blog</span><span class="capitalize text-gray-950 m-2">career</span><span class="h-9 w-9 rounded-full border border-gray-800 m-2 text item center"><Icon name="ph:phone-call-thin" class="align-items-center text-center
        font-bold text-2xl mt-1" /></span><span class="h-9 w-9 rounded-full bg-gray-900"><Icon name="openmoji:right-arrow" class="text-white text-2xl mt-1"/></span></el-button>
-  </el-affix>
+  </el-affix> -->
     <!-- ------------------------mainContainer-------------------------->
     <div class="relative  bg-gray-950">
       <header class="absolute inset-x-0 right-0 top-0 z-50">
