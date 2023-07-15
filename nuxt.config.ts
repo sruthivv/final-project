@@ -10,7 +10,7 @@ css: [
   '@assets/css/main.css',
 ],
 modules: ['@nuxtjs/tailwindcss',
-'nuxt-icon','@element-plus/nuxt'],
+'nuxt-icon','@element-plus/nuxt','nuxt-headlessui'],
  tailwindcss: {
     viewer: false
   },

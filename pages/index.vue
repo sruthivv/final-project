@@ -1,14 +1,9 @@
 <template>
   <div class="main">
-<div class="affix-container visible md:invisible sm:invisible">
-  <!-- <el-affix  :offset="600" class="w-auto
-  ">
-    <el-button type="default" class="rounded-e-full btn btn-rounded bg-white py-4 px-3.5  "><span class="capitalize text-gray-950 m-2">home</span><span class="capitalize text-gray-950 m-2">about</span><span class="capitalize text-gray-950 m-2">portfolio</span><span class="capitalize text-gray-950 m-2">blog</span><span class="capitalize text-gray-950 m-2">career</span><span class="h-9 w-9 rounded-full border border-gray-800 m-2 text item center"><Icon name="ph:phone-call-thin" class="align-items-center text-center
-       font-bold text-2xl mt-1" /></span><span class="h-9 w-9 rounded-full bg-gray-900"><Icon name="openmoji:right-arrow" class="text-white text-2xl mt-1"/></span></el-button>
-  </el-affix> -->
+<div class="">
     <!-- ------------------------mainContainer-------------------------->
     <div class="relative  bg-gray-950">
-      <header class="absolute inset-x-0 right-0 top-0 z-50">
+      <!-- <header class="absolute inset-x-0 right-0 top-0 z-50">
         <div class="mx-auto max-w-7xl">
           <div class="px-6 pt-6 lg:max-w-2xl lg:pl-0 float-right">
             <button type="button" class="!bg-indigo-600 text-white text-capitalize rounded-full py-2 px-3 lg:ml-2 sm:m-2"><Icon name="material-symbols:phone-android" /> connect us</button>
@@ -20,25 +15,25 @@
             </button>
           </div>
         </div>
-      </header>
+      </header> -->
       <div class="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
         <div
           class="px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6"
         >
           <div class="mx-auto max-w-2xl lg:mx-0">
-            <div class="d-flex"><div> <img
+            <div class="d-flex sm:hidden"><div> <img
                     class="h-11"
-                    src="~/assets/images/iocodlogo2.png"
+                    src="https://cdn4.vectorstock.com/i/1000x1000/64/23/lion-head-logo-icon-on-black-background-vector-26566423.jpg"
                     alt="Your Company"
                   /></div>
-                <div><h2 class="text-white font-thin">iocod</h2></div></div>
+                <div><h2 class="text-white font-thin">lorem</h2></div></div>
             <h1
               class="mt-24 text-4xl font-normal tracking-tight text-white sm:mt-10 sm:text-6xl"
             >
             Unleash the potential of the digital transformation
             </h1>
             <p class="mt-6 text-lg leading-8 text-white">
-              <span class="text-lime-400 font-semibold">i</span>nput your business and operations,and we'll <span class="text-lime-400 font-semibold">o</span>utput the optimal software. <span class="text-lime-400 font-semibold">cod</span>ed by real problem solvers
+              <span class="text-lime-400 font-semibold">L</span>orem ipsum business and operations,and we'll <span class="text-lime-400 font-semibold">o</span>sit amet, consectetur adipiscing elit. <span class="text-lime-400 font-semibold">rem</span>ed by real problem solvers
             </p>
             <div class="mt-10 flex items-center gap-x-6">
               <button
@@ -90,7 +85,7 @@
       <div>
         <div class="bg-white py-10 sm:py-12">
             <div class="mx-auto max-w-7xl px-6 lg:px-8" >
-              <h1 class="text-center lg:text-7xl outline-4 font-semibold leading-8 " style="animation-timing-function: ease-in-out;  animation: mymove 5s infinite;"><span class="font-bold">i</span><span class="outline-4 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">nput</span><Icon name="fluent:text-asterisk-20-regular" class="m-3 text-lime-400" /><span class="font-bold">o</span><span class="outline-4 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">utput<Icon name="fluent:text-asterisk-20-regular" class="m-3 text-lime-400" /></span><span class="font-bold">cod</span><span class="outline-4 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">e</span><Icon name="fluent:text-asterisk-20-regular" class="m-3 text-lime-400" /></h1>
+              <h1 class="text-center lg:text-7xl outline-4 font-semibold leading-8 " style="animation-timing-function: ease-in-out;  animation: mymove 5s infinite;"><span class="font-bold">L</span><span class="outline-4 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">orem</span><Icon name="fluent:text-asterisk-20-regular" class="m-3 text-lime-400" /><span class="font-bold">o</span><span class="outline-4 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">ipsum<Icon name="fluent:text-asterisk-20-regular" class="m-3 text-lime-400" /></span><span class="font-bold">rem</span><span class="outline-4 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">e</span><Icon name="fluent:text-asterisk-20-regular" class="m-3 text-lime-400" /></h1>
             </div>
           </div>
         
@@ -158,14 +153,21 @@
         </svg>
       </div></div>
 
-    <div class="pillerWrapper">
-        <div class="bg-white py-14 sm:py-20">
-            <div class="mx-auto max-w-7xl px-6 lg:px-8" >
-              <h1 class="text-center lg:text-7xl sm:text-5xl outline-4 font-bold leading-8" >our five piller approach</h1></div>
-          </div>
-      </div>
 
-    <!-- ------------------------List-------------------------->
+<!--------------clients --------------->
+<div class="bg-white py-24  sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-9">
+    <h2 class="text-center text-lg font-semibold leading-8 text-gray-900">Trusted by the world’s most innovative teams</h2>
+    <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+      <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg" alt="Transistor" width="158" height="48">
+      <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg" alt="Reform" width="158" height="48">
+      <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg" alt="Tuple" width="158" height="48">
+      <img class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg" alt="SavvyCal" width="158" height="48">
+      <img class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg" alt="Statamic" width="158" height="48">
+    </div>
+  </div>
+</div>
+    <!--------------------------List-------------------------->
 
 <div class="p-4 bg-gray-800">
   <div class="p-2">
@@ -267,7 +269,7 @@
           <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div class="lg:ml-auto lg:pl-4 lg:pt-4">
               <div class="lg:max-w-lg">
-                <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Kelvin Harrigton <span class="text-gray-400 font d=semibold">about IOCOD</span></p>
+                <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">customers <span class="text-gray-400 font d=semibold">about Lorem</span></p>
                 <p class="mt-6 text-sm  text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in est nec quam consectetur vehicula. Vestibulum lacus justo, mollis in lobortis ac, pulvinar efficitur elit. Maecenas aliquet eget urna nec sagittis. Fusce volutpat sed dolor nec fringilla. Aenean vitae leo fringilla, aliquet ex eu, vestibulum magna. Donec eleifend volutpat sapien vitae tristique. Maecenas et tincidunt lectus.
 
                   Aenean vitae tristique mauris. Proin elementum quam tincidunt dignissim semper. Nam mattis molestie viverra. Quisque vel magna eu sem vestibulum tempus. Duis sit amet lorem quis risus feugiat posuere. Sed quis felis malesuada, molestie ex vel, commodo urna. In consectetur risus vel urna tempus, sed lacinia libero lobortis. Fusce et urna sed eros tincidunt ullamcorper a sed turpis.</p>
@@ -285,7 +287,7 @@
        <carousel :options="reviews"/>
       </div>
 
-      <div class="container">
+      <div class="fintechcontainer w-full">
         <div class="bg-white py-14 sm:py-20">
             <div class="mx-auto max-w-7xl px-6 lg:px-8" >
               <h1 class="text-center lg:text-5xl sm:text-3xl outline-4 font-semibold leading-8 " style="animation-timing-function: ease-in-out;  animation: mymove 5s infinite;"><span class="outline-4 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">no one understands</span> <span class="font-bold">fintech</span> <span class="outline-4 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">better than us</span> </h1>
@@ -319,13 +321,6 @@ const { reviews,rightServices,
         hide7,
         hide8,hide9 } =useData()
 
-
 </script>
-<style scoped>
-.affix-container {
-  text-align: center;
-  height: 100%;
-  border-radius: 4px;
-  background: var(--el-color-primary-light-9);
-}
-      </style>
+<style lang="scss">
+  </style>

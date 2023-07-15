@@ -32,7 +32,7 @@ export default ()=>{
        },
       {
       authorName:'David',
-      description:'changing my thoughts has allowed me to change my life',
+      description:'changing my thoughts has allowed me to change my life,changing my thoughts has allowed me to change my life,',
       about:'on meditations positive effects of life',
       address:'london'
       }]
